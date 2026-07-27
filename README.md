@@ -1,16 +1,37 @@
-## Hi there 👋
+<p align="center">
+  <img src="./profile-banner-v3.svg" alt="Jingkun Luo — LLM Agents and NLP" width="100%" />
+</p>
 
-<!--
-**luojingkun22/luojingkun22** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Building LLM agent and NLP systems with a focus on reliability, traceability, and security.
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <code>Python</code>&nbsp;&nbsp;
+  <code>Transformers</code>&nbsp;&nbsp;
+  <code>LLM Agents</code>&nbsp;&nbsp;
+  <code>NLP</code>&nbsp;&nbsp;
+  <code>AI Security</code>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Selected work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/luojingkun22/acquabench">AcquaBench ↗</a></h3>
+      <p>Explainable auditing for success provenance in LLM agent trajectories.</p>
+      <p><a href="https://luojingkun22.github.io/acquabench/">Live demo report ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/luojingkun22/SenFlow">SenFlow ↗</a></h3>
+      <p>Inter-sentence flow modeling for AI-generated text detection in hybrid documents.</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://orcid.org/0009-0000-7727-1843">ORCID</a>
+</p>
+
+
