@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Jingkun Luo — LLM Agents and NLP</title>
+  <desc id="desc">A restrained animated banner with a flowing trajectory motif.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0e14"/>
+      <stop offset="58%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#10212a"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7692ff"/>
+      <stop offset="52%" stop-color="#8f9eff"/>
+      <stop offset="100%" stop-color="#65dfca"/>
+    </linearGradient>
+    <radialGradient id="ambient">
+      <stop offset="0%" stop-color="#4f6fe8" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#4f6fe8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-200%" y="-200%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <path id="activePath" d="M690 184 C766 123 815 210 887 151 S1005 67 1144 116"/>
+  </defs>
+
+  <rect width="1200" height="280" rx="22" fill="url(#background)"/>
+  <circle cx="1035" cy="96" r="250" fill="url(#ambient)"/>
+  <path d="M0 279 H1200" stroke="url(#signal)" stroke-width="2" opacity=".8"/>
+
+  <g transform="translate(72 55)">
+    <text x="0" y="20" fill="#8fa2ff" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="4">RESEARCH × ENGINEERING</text>
+    <text x="0" y="104" fill="#f5f6f8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="70" font-weight="650" letter-spacing="-2.5">Jingkun Luo</text>
+    <text x="2" y="156" fill="#c5cbd5" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="550" letter-spacing="3">LLM AGENTS  /  NLP</text>
+  </g>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M675 91 C756 42 828 76 891 108 S1013 182 1158 80" stroke="#d6dbe5" stroke-opacity=".11" stroke-width="1.5"/>
+    <path d="M669 133 C757 76 819 131 887 129 S1001 88 1158 158" stroke="#d6dbe5" stroke-opacity=".15" stroke-width="1.5"/>
+    <use href="#activePath" stroke="url(#signal)" stroke-opacity=".82" stroke-width="2.2"/>
+    <path d="M678 221 C765 174 833 235 910 205 S1030 142 1158 213" stroke="#d6dbe5" stroke-opacity=".1" stroke-width="1.5"/>
+  </g>
+
+  <g fill="#111827" stroke="#8994a9" stroke-width="1.5" opacity=".9">
+    <circle cx="690" cy="184" r="5"/>
+    <circle cx="887" cy="151" r="5"/>
+    <circle cx="1020" cy="91" r="5"/>
+    <circle cx="1144" cy="116" r="5"/>
+  </g>
+
+  <circle r="17" fill="#7e94ff" opacity=".24" filter="url(#softGlow)">
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#activePath"/>
+    </animateMotion>
+  </circle>
+  <circle r="4.5" fill="#f7f9fc">
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#activePath"/>
+    </animateMotion>
+  </circle>
+</svg>
